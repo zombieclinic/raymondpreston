@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom right, #187aeb, #187aeb);
+}
+
+
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    padding: 1rem; 
+    border: 1rem solid #000000; 
+    border-radius: 50rem; 
+    max-width: 100rem; 
+    margin: auto; 
+    background-color: rgb(133, 236, 236);
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    margin-top: 15rem;
+}
+
+.youtube {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem; 
+    border: 1rem solid #000000; 
+    border-radius: 50rem; 
+    max-width: 100rem; 
+    margin: 0 auto; 
+    background-color: rgb(133, 236, 236);
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    padding: 1rem; 
+    border: 1rem solid #000000; 
+    border-radius: 50rem;
+    max-width: 100rem; 
+    margin: 0 auto; 
+    background-color: rgb(133, 236, 236);
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    padding: 1rem; 
+    border: 1rem solid #000000; 
+    border-radius: 50rem;
+    max-width: 100rem; 
+    margin: 0 auto;
+    background-color: rgb(133, 236, 236);
+    font-size: 2.4rem;
+}

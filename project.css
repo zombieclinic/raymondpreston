@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 2.2rem;
+    font-style: oblique;
+}
+
+
+body {
+    background: linear-gradient(to bottom right, #187aeb, #187aeb, #7c16db);
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 0 2rem; 
+}
+
+.PacMan, .Eye, .buss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border: 1rem solid #000000;
+    border-radius: 50rem;
+    max-width: 30rem;
+    background-color: rgb(133, 236, 236);
+    font-size: 2.4rem;
+    margin-left: 6rem;
+     
+    transition: background-color 0.3s;
+}
+
+.PacMan:hover, .Eye:hover, .buss:hover {
+    background-color: #f0f0f0;
+}
+
+.PacMan img, .Eye img, .buss img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem; 
+}
+
+.contact-title {
+    font-weight: bold;
+    margin-bottom: 1rem; 
+}
+
+.contact-link {
+    color: #000000;
+    text-decoration: none;
+}
+.PacMan, .Eye, .buss {
+    position: relative; 
+}
+
+.PacMan:hover::before, .Eye:hover::before, .buss:hover::before {
+    content: attr(data-description); 
+    position: absolute;
+    bottom: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #ffffff;
+    padding: 0.5rem; 
+    border-radius: 0.5rem; 
+    font-size: 1.2rem; 
+    white-space: nowrap; 
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.PacMan:hover::before, .Eye:hover::before, .buss:hover::before {
+    opacity: 1; 
+}
